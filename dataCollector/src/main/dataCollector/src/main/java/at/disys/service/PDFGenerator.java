@@ -12,4 +12,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class PDFGenerator {
 
+    //TODO: Implement this class as a Spring Service
+
 }

@@ -14,4 +14,7 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class DataCollectionReceiver {
+
+    //TODO: Implement this class as a Spring Service
+
 }

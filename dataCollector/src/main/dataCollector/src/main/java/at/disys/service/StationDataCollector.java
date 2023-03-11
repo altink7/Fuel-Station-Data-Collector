@@ -9,4 +9,7 @@ package at.disys.service;
  *</i>
  */
 public class StationDataCollector {
+
+    //TODO: Implement this class as a Spring Service
+
 }

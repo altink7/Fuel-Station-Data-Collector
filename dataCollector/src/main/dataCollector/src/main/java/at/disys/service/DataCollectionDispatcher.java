@@ -2,7 +2,7 @@ package at.disys.service;
 
 import org.springframework.stereotype.Service;
 
-/***
+/**
  * This class is responsible for dispatching the data collection to the correct
  * data collector. <br>
  *
@@ -17,5 +17,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class DataCollectionDispatcher {
 
+    //TODO: Implement this class as a Spring Service
 
 }
