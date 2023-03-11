@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd11f769-a14d-4528-8fd8-c800111a1e42" name="Changes" comment="repo modified, services javadoc added">
+    <list default="true" id="cd11f769-a14d-4528-8fd8-c800111a1e42" name="Changes" comment="javadoc added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/PDFGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/PDFGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/StationDataCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/StationDataCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/controller/DataCollectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/controller/DataCollectionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +112,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678530113403</updated>
       <workItem from="1678530114564" duration="1955000" />
-      <workItem from="1678532142985" duration="604000" />
+      <workItem from="1678532142985" duration="1003000" />
     </task>
     <task id="LOCAL-00001" summary="grundstruktur hinzugefügt und repo added, service started">
       <created>1678532307254</created>
@@ -131,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678532551963</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="javadoc added">
+      <created>1678532810788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678532810788</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="grundstruktur hinzugefügt und repo added, service started" />
     <MESSAGE value="repo modified, services javadoc added" />
-    <option name="LAST_COMMIT_MESSAGE" value="repo modified, services javadoc added" />
+    <MESSAGE value="javadoc added" />
+    <option name="LAST_COMMIT_MESSAGE" value="javadoc added" />
   </component>
 </project>
