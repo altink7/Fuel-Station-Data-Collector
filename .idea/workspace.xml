@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd11f769-a14d-4528-8fd8-c800111a1e42" name="Changes" comment="" />
+    <list default="true" id="cd11f769-a14d-4528-8fd8-c800111a1e42" name="Changes" comment="grundstruktur hinzugefügt und repo added, service started">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/repo/charge.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/repo/charge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/repo/customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/repo/customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/PDFGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/PDFGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/StationDataCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/StationDataCollector.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,9 +75,17 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
+    "spring.configuration.checksum": "d2b1248fd17223bb657d9b369a7d637c",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.DataCollectorApplication">
     <configuration name="DataCollectorApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="dataCollector" />
@@ -101,10 +118,23 @@
       <option name="presentableId" value="Default" />
       <updated>1678530113403</updated>
       <workItem from="1678530114564" duration="1955000" />
+      <workItem from="1678532142985" duration="375000" />
     </task>
+    <task id="LOCAL-00001" summary="grundstruktur hinzugefügt und repo added, service started">
+      <created>1678532307254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678532307254</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="grundstruktur hinzugefügt und repo added, service started" />
+    <option name="LAST_COMMIT_MESSAGE" value="grundstruktur hinzugefügt und repo added, service started" />
   </component>
 </project>

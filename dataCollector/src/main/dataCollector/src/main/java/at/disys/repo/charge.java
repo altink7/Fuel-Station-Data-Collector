@@ -16,8 +16,9 @@ public class charge {
     @Id
     private Long id;
 
-    @Column(name = "kwh")
-    @NotNull(message = "kwh must not be null")
+    @Column(name = "kwh",
+            nullable = false,
+            columnDefinition = "REAL")
     private Long kwh;
 
     @ManyToOne

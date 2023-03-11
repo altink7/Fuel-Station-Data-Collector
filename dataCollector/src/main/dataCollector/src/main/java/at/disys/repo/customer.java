@@ -3,7 +3,6 @@ package at.disys.repo;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.validation.constraints.NotNull;
 
 /**
  * This class represents a customer.
@@ -18,12 +17,14 @@ public class customer {
     @Id
     private Long id;
 
-    @Column(name = "first_name")
-    @NotNull(message = "first name must not be null")
+    @Column(name = "first_name",
+            nullable = false,
+            columnDefinition = "VARCHAR(255)")
     private String firstName;
 
-    @Column(name = "last_name")
-    @NotNull(message = "last name must not be null")
+    @Column(name = "last_name",
+            nullable = false,
+            columnDefinition = "VARCHAR(255)")
     private String lastName;
 
     public String getFirstName() {
