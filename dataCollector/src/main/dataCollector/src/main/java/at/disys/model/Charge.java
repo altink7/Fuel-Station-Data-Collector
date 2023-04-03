@@ -1,18 +1,17 @@
-package at.disys.repo;
+package at.disys.model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotNull;
 
 /**
  * This class represents a charge of a customer.
  * <i> <br>
- *    id SERIAL PRIMARY KEY, <br>
- *    kwh REAL NOT NULL,     <br>
- *    customer_id INTEGER NOT_NULL</i>
+ * id SERIAL PRIMARY KEY, <br>
+ * kwh REAL NOT NULL,     <br>
+ * customer_id INTEGER NOT_NULL</i>
  */
 
 @Entity(name = "charge")
-public class charge {
+public class Charge {
     @Id
     private Long id;
 
@@ -23,7 +22,17 @@ public class charge {
 
     @ManyToOne
     @JoinColumn(name = "customer_id")
-    private customer customer;
+    private Customer customer;
+
+    public Charge(Long id, Long kwh, Customer customer) {
+        this.id = id;
+        this.kwh = kwh;
+        this.customer = customer;
+    }
+
+    public Charge() {
+
+    }
 
     public Long getKwh() {
         return kwh;
@@ -33,11 +42,11 @@ public class charge {
         this.kwh = kwh;
     }
 
-    public customer getCustomer() {
+    public Customer getCustomer() {
         return customer;
     }
 
-    public void setCustomer(customer customer) {
+    public void setCustomer(Customer customer) {
         this.customer = customer;
     }
 

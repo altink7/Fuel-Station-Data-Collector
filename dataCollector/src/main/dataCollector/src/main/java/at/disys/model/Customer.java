@@ -1,4 +1,4 @@
-package at.disys.repo;
+package at.disys.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -7,13 +7,13 @@ import jakarta.persistence.Id;
 /**
  * This class represents a customer.
  * <i> <br>
- *    id SERIAL PRIMARY KEY, <br>
- *    first_name VARCHAR(255) NOT NULL, <br>
- *    last_name VARCHAR(255) NOT NULL</i>
+ * id SERIAL PRIMARY KEY, <br>
+ * first_name VARCHAR(255) NOT NULL, <br>
+ * last_name VARCHAR(255) NOT NULL</i>
  */
 
 @Entity(name = "customer")
-public class customer {
+public class Customer {
     @Id
     private Long id;
 
@@ -26,6 +26,14 @@ public class customer {
             nullable = false,
             columnDefinition = "VARCHAR(255)")
     private String lastName;
+
+    public Customer(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public Customer() {
+    }
 
     public String getFirstName() {
         return firstName;
