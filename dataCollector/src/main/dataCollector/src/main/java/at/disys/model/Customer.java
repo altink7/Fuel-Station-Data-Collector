@@ -1,4 +1,4 @@
-package at.disys.repo;
+package at.disys.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -13,7 +13,7 @@ import jakarta.persistence.Id;
  */
 
 @Entity(name = "customer")
-public class customer {
+public class Customer {
     @Id
     private Long id;
 
@@ -26,6 +26,9 @@ public class customer {
             nullable = false,
             columnDefinition = "VARCHAR(255)")
     private String lastName;
+
+    public Customer() {
+    }
 
     public String getFirstName() {
         return firstName;
