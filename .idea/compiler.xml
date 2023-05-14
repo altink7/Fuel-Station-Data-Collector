@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dataCollector" target="17" />
+      <module name="dataCollector" target="19" />
       <module name="dataCollector.main" target="17" />
       <module name="dataCollector.test" target="17" />
     </bytecodeTargetLevel>
