@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd11f769-a14d-4528-8fd8-c800111a1e42" name="Changes" comment="javadoc added">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_14_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_commons_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_observation_1_10_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_10_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_10_1_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_3_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_6_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_6_0_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/controller/GetInvoiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/resources/dataCollectorGUI/GetInvoice.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/controller/DataCollectionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/controller/DataCollectionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/datacollector/DataCollectorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/datacollector/DataCollectorApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionDispatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/DataCollectionReceiver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/PDFGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/PDFGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/StationDataCollector.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/service/StationDataCollector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/webgui/StationDataCollectorGui.java" beforeDir="false" afterPath="$PROJECT_DIR$/dataCollector/src/main/dataCollector/src/main/java/at/disys/webgui/StationDataCollectorGui.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,9 +40,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,12 +72,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/sandr/Sandra/FH Technikum/04_SS_2023/DISYS/Block 7_UI in JavaFX (HandsOn)/CustomersGUILektor_01/CustomersGUI",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "spring.configuration.checksum": "d2b1248fd17223bb657d9b369a7d637c",
@@ -117,7 +108,10 @@
       </method>
     </configuration>
     <configuration name="DataCollectorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="dataCollector.main" />
+      <option name="ACTIVE_PROFILES" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="dataCollector" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="at.disys.datacollector.DataCollectorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,10 +128,8 @@
       <updated>1678530113403</updated>
       <workItem from="1678530114564" duration="1955000" />
       <workItem from="1678532142985" duration="1578000" />
-<<<<<<< Updated upstream
-=======
       <workItem from="1684064188360" duration="3361000" />
->>>>>>> Stashed changes
+      <workItem from="1684064188360" duration="3256000" />
     </task>
     <task id="LOCAL-00001" summary="grundstruktur hinzugefügt und repo added, service started">
       <created>1678532307254</created>
@@ -172,6 +164,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="grundstruktur hinzugefügt und repo added, service started" />
