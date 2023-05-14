@@ -1,9 +1,13 @@
 package at.disys.controller;
 
+import at.disys.service.DataCollectionService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /***
  * This class is responsible for the REST API. <br>
@@ -19,8 +23,9 @@ import org.springframework.web.bind.annotation.PostMapping;
  */
 
 @Controller
+@RequestMapping("/api")
 public class DataCollectionController {
-
+    DataCollectionService dataCollectionService;
 
     /**
      * Returns invoice PDF with download link and creation time
@@ -31,9 +36,7 @@ public class DataCollectionController {
     @GetMapping("/invoices/{customer-id}")
     public String getInvoice(@PathVariable("customer-id") String customerId) {
 
-        //TODO: Implement this method
-
-        return null;
+        return "invoice";
     }
 
     /**
@@ -44,10 +47,19 @@ public class DataCollectionController {
      * @return 202 Accepted
      */
     @PostMapping("/invoices/{customer-id}")
-    public String startDataGathering(@PathVariable("customer-id") String customerId) {
+    public ResponseEntity<Void> startDataGathering(@PathVariable("customer-id") String customerId) {
+        boolean customerExists = dataCollectionService.checkCustomerExists(customerId);
 
-        //TODO: Implement this method
+        if (customerExists) {
+            dataCollectionService.publishDataGatheringJob(customerId);
+            return ResponseEntity.accepted().build();
+        } else {
+            return ResponseEntity.notFound().build();
+        }
+    }
 
-        return null;
+    @Autowired
+    public void setDataCollectionService(DataCollectionService dataCollectionService) {
+        this.dataCollectionService = dataCollectionService;
     }
 }
