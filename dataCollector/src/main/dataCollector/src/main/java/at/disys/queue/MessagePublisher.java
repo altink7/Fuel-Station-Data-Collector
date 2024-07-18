@@ -8,7 +8,6 @@ import java.util.concurrent.TimeoutException;
 /**
  * This class is responsible for sending messages from a RabbitMQ queue
  */
-
 public class MessagePublisher extends QueueService{
     public MessagePublisher(String queueName) {
         super(queueName);
