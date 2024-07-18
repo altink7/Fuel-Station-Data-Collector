@@ -8,7 +8,6 @@ import java.util.concurrent.TimeoutException;
 /**
  * This class is resposible for base implementation of a queue service
  */
-
 public abstract class QueueService {
     protected static final String RABBITMQ_HOST = "localhost";
     protected static final int RABBITMQ_PORT = 30003;
