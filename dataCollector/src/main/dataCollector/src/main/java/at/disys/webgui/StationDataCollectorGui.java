@@ -11,7 +11,6 @@ import java.io.IOException;
  * The GUI for the data collector
  *
  */
-
 public class StationDataCollectorGui extends Application {
 
     //TODO: Implement GUI as a JavaFX Application
