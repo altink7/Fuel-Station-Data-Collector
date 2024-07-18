@@ -21,7 +21,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
  *  <li>Returns 404 Not Found, if it’s not available</li>
  *
  */
-
 @Controller
 @RequestMapping("/api")
 public class DataCollectionController {
