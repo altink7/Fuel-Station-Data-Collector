@@ -13,7 +13,6 @@ import java.util.concurrent.TimeoutException;
 /**
  * Business logic for the data collection.
  */
-
 @Service
 public class DataCollectionService {
     CustomerDao customerDao;
